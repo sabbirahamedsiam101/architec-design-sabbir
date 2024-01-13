@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Work Sans', sans-serif;
+    box-sizing: border-box;
+}
+nav{
+    padding: 30px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    color:  #131313;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+}
+.navList{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+header{
+    background-color: rgba(255, 144, 14, 0.10);
+    padding-bottom: 45px;
+}
+.homeTextcontainer{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.heading1{
+    color:  #131313;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+
+}
+.para1{
+    color:#727272;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    max-width: 700px;
+    padding: 0 30px;
+}
+.btn1{
+    border-radius: 8px;
+    background: #FF900E;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 20px;
+    border: 0;
+}
+.banner1{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 30px ;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+.bannerImg{
+  width: 100%;
+  height: auto;
+}
+
+
+/* features section */
+main{
+    margin: 0 8%;
+}
+
+.features{
+    padding: 50px 30px 130px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.gridlayout1{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 30px;
+}
+.featuresImg{
+    width: 100%;
+}
+.featuresContentbox{
+     max-width: 40%;
+}
+.featuresContent{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    align-items: start;
+
+}
+.heading2{
+    color:  #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+.para2{
+    color:#727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/*  love and enjoy  */
+.loveandenjoy{
+ display: flex;
+ gap: 60px;
+ justify-content: space-between;
+ margin-bottom: 90px;
+}
+.leftSec{
+ max-width: 50%;
+
+}
+.top{
+    margin-bottom: 20px;
+}
+.heading3{
+    color:#131313;
+    font-size: 45px;
+    font-weight: 700;
+    padding-left: 16px;
+    border-left: 5px solid #FF900E;
+    margin-bottom: 20px;
+}
+
+.bottom{
+
+}
+.bItem{
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding: 17px 30px 17px 14px;
+    margin-top: 20px;
+}
+.headng3{
+    color:#131313;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.rightSec{
+    max-width: 50%;
+    position: relative;
+}
+.imgBox{
+ display: flex;
+ justify-content: end;
+}
+.img1{
+
+
+    max-width: 74%;
+}
+.experienceDiv{
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+    border-radius: 8px;
+    background: #FF900E;
+    color: #FFF;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 20px 30px;
+}
+.Experience{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* Some Facts */
+.someFacts{
+
+}
+
+.sfContentBox{
+ display: flex;
+ flex-direction: column;
+ gap: 20px;
+ align-items: center;
+}
+.para3{
+    color:#727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    max-width: 600px;
+    text-align: center;
+}
+.awardBoxs{
+  margin: 80px 0 120px 0;
+  display: grid;
+  grid-template-columns: repeat(4 , 200px);
+  justify-content: center;
+  gap: 60px;
+}
+.singleBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    padding: 45px 0 ;
+}
+.icon{
+
+}
+.number{
+
+}
+
+/* Our Sponspors  */
+.companies{
+  margin-top: 60px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  filter: saturate(0);
+}
+
+/* copy right text */
+.crText{
+    border-radius: 8px;
+    background: #FFF4E7;
+    margin-bottom: 70px;
+}
+.crText > p {
+    text-align: center;
+    padding: 30px;
+}
